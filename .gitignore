@@ -1,0 +1,10 @@
+node_modules/
+dist/
+android/app/build/
+android/.gradle/
+android/build/
+*.local
+.env
+tappy-release.keystore
+*.keystore
+.DS_Store
