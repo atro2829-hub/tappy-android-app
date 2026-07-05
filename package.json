@@ -9,28 +9,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/haptics": "^6.0.1",
+    "@capacitor/network": "^6.0.2",
+    "@capacitor/preferences": "^6.0.2",
+    "@capacitor/splash-screen": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1",
+    "axios": "^1.7.9",
+    "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0",
-    "axios": "^1.7.9",
-    "zustand": "^5.0.2",
-    "lucide-react": "^0.468.0",
-    "@capacitor/core": "^6.2.0",
-    "@capacitor/preferences": "^6.0.2",
-    "@capacitor/network": "^6.0.2",
-    "@capacitor/splash-screen": "^6.0.2",
-    "@capacitor/status-bar": "^6.0.1",
-    "@capacitor/haptics": "^6.0.1"
+    "zustand": "^5.0.2"
   },
   "devDependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "@tailwindcss/vite": "^4.0.0",
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
-    "typescript": "^5.7.2",
-    "vite": "^6.0.5",
     "tailwindcss": "^4.0.0",
-    "@tailwindcss/vite": "^4.0.0",
-    "@capacitor/cli": "^6.2.0"
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
   }
 }

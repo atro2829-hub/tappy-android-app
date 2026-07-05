@@ -16,15 +16,6 @@ android {
             ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
-
-    signingConfigs {
-        release {
-            storeFile file('../../tappy-release.keystore')
-            storePassword 'tappy2024secure'
-            keyAlias 'tappy'
-            keyPassword 'tappy2024secure'
-        }
-    }
     buildTypes {
         release {
             minifyEnabled false
